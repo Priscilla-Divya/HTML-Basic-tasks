@@ -1,5 +1,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+html{
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
 *{
   font-family: "Poppins";
 }
@@ -10,7 +13,7 @@ text-align: center;
 .split {
   height: 100%;
   width: 50%;
-  position: fixed;
+  position: absolute;
   top: 0;
   padding-top: 20px;
 }
