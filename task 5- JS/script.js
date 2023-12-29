@@ -53,7 +53,7 @@ if(start && end != null){
 const char = '0A1B2C3D45E67F89';
 let randomColor = "#";
 for (let index = 1; index <= 6; index++) {
-    const randColor = Math.floor(Math.random() * 6);
+    const randColor = Math.floor(Math.random() * char.length);
     randomColor += char.charAt(randColor);
     console.log(randomColor);  
 }
