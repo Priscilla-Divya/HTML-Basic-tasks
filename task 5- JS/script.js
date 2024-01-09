@@ -35,7 +35,7 @@ for(n=1; n<=num; n++){
     if(i==j)
     console.log(`${i} is a prime number`);
  }   
-//Getting inputs from user and displaying 
+// Getting inputs from user and displaying 
 let start = prompt('Hello, Enter the starting range');
 let end = prompt('Enter the ending range');
 console.log(`starting range:- ${start}`);
@@ -57,3 +57,18 @@ for (let index = 1; index <= 6; index++) {
     randomColor += char.charAt(randColor);
     console.log(randomColor);  
 }
+
+
+//adding para text using DOM
+// window.onload = () =>{
+//     const subHeading = document.createElement("p");
+//     subHeading.innerText = "Let's understand the purpose of DOM and JS";
+//     document.body.appendChild(subHeading);
+// }
+
+// window.onclick = () =>{
+// const button = document.getElementById("start-button");
+// button.addEventListener('click', function(){
+//     alert('Welcome');
+// });
+// }
