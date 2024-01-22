@@ -73,7 +73,7 @@ const char = '0A1B2C3D45E67F89';
 // }
 
 
-function genRandomColor(){
+const genRandomColor = () => {
     const char = '0A1B2C3D45E67F89';
     let randomColor = "#";
     for (let index = 1; index <= 6; index++) {
@@ -84,7 +84,6 @@ function genRandomColor(){
     const colorCode = document.querySelector("h2");
     colorCode.innerHTML = `Your Color Code is ${randomColor}`;
     }
-    // return randomColor;
 }
 
 const generateBtn =  document.querySelector("button");
