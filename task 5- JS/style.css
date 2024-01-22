@@ -1,0 +1,12 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.color-code-gen{
+    text-align: center;
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 250px;
+}
