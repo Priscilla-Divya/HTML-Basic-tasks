@@ -92,5 +92,27 @@ generateBtn.addEventListener('click', genRandomColor);
 
 
 
+const primeNos = [3,5,7,11,13];
+console.log(primeNos);
+const cubeOfPrime = primeNos.map(n => Math.pow(n, 3));
+let sum = 0;
+for (let i = 0; i < primeNos.length; i++ ) {
+    sum += cubeOfPrime[i];
+  }
+console.log(cubeOfPrime);
+console.log(`The sum of Prime Cube Number is ${sum}`);
+
+
+
+const today = new Date();
+console.log(today.getMonth());
+
+
+
+
+
+
+
+
 
 

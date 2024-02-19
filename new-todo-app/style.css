@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+*{
+font-family: 'Kanit';
+}
+.split1{
+    width: 100%;
+    height: 30%;
+    top: 0;
+    position: absolute;
+}
+.split2{
+    width: 100%;
+    height: 70%;
+    top: 30%;
+    position: absolute;
+}
+.top-part{
+    left: 0;
+    background-color: pink;
+    padding-left: 30%;
+}
+.bottom-part{
+    left: 0;
+    background-color: rgb(242, 213, 218);
+}
+.todo-title{
+    letter-spacing: 6px;
+    padding-top: 7%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.todo-addtask-box{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+.todo-addtask-box::placeholder{
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.bi-plus-circle{
+    color: white;
+}
+#add-btn, #clr-btn{
+    background: none;
+	color: inherit;
+	border: none;
+    padding: 10px;
+}
+.bottom-part{
+    padding-left: 30%;
+    padding-top: 50px;
+}
+.todo-task-list{
+    width: 520px;
+    background-color: white;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+}
+.fa-circle-check{
+    color: pink;
+    height: 22px;
+    width: 22px;
+    padding-top: 10px;
+}
+.fa-pen-to-square{
+    color: green;
+}
+.fa-trash{
+    color: red;
+}
+.status-btn{
+    background: none;
+	color: inherit;
+	border: none;
+    /* padding: 10px;  */
+}
+.edit-btn, .del-btn{
+    background: pink;
+	color: inherit;
+	border: none;
+    height: 40px;
+    width: 40px;
+}
+.task-list-text{
+    text-align: justify;
+    overflow: hidden;
+    width: 300px;
+    font-size: 22px;
+}

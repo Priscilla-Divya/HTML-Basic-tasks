@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+*{
+    font-family: 'Kanit';
+}
+
+input[type="date"]
+{
+    background-color: pink;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+h1{
+ text-align: center;
+ font-size: 40px;
+ color: white;
+}
+
+.firstPart{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    width: 500px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#years, #months, #days, #hours, #minutes, #millisec{
+    width: 110px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.box-design{
+    /* height:60px; */
+    width: 110px;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: center;
+    color: black;
+}
+.detailsSection{
+    background-color: pink;
+    width: 900px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.contentSection{
+    background-color: black;
+    width: 300px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.contentSection span{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+#totalMonths, #totalWeeks, #totalDays, #totalHours, #totalMintues, #totalSec{
+    color: pink;
+    font-size: 24px;
+    padding-left: 10px;
+}
+#daysLeft{
+   text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+   color: blue;
+}
